@@ -14,6 +14,7 @@ import { PostCompOne } from './components/wireframeComponent/postcomp/postcompon
 import { PostCompTwo } from './components/wireframeComponent/postcomp/postcomptwo/postcomptwo.component';
 import { PostCompThree } from './components/wireframeComponent/postcomp/postcompthree/postcompthree.component';
 import { Sidebar } from './components/wireframeComponent/sidebar/sidebar.component';
+import { Sidebarone } from './components/wireframeComponent/sidebar/sidebarcompone/sidebarcompone.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Sidebar } from './components/wireframeComponent/sidebar/sidebar.compone
     PostCompOne,
     PostCompTwo,
     PostCompThree,
-    Sidebar
+    Sidebar,
+    Sidebarone
     
   ],
   imports: [
