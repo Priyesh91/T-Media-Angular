@@ -17,5 +17,20 @@ import { PostSearch } from './postSearch/postsearch.component';
 })
 
 export class PostComp {
-  
+  //properties
+  name = "PostComp";
+  age = 20;
+
+  constructor(){
+    console.log(this.name);
+    console.log(this.age);
+    this.increaseAge();
+    console.log(this.age);
+  }
+
+  //Method
+  increaseAge() {
+    this.age = this.age + 20;
+  }
+
 }
